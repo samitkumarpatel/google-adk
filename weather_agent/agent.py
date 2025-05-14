@@ -56,7 +56,7 @@ def get_current_time(city: str) -> dict:
 
 
 root_agent = Agent(
-    name="weather_time_agent",
+    name="weather_agent",
     model=LiteLlm(model="ollama_chat/llama3.1"),
     description=(
         "Agent to answer questions about the time and weather in a city."
