@@ -4,7 +4,7 @@ from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
 
 root_agent = Agent(
-    name="chat_agent",
+    name="agent_with_ollama",
     model=LiteLlm(model="ollama/llama3.1"),
     description=(
         "Agent to answer questions from user"
